@@ -23,7 +23,22 @@ This project focuses on **automating the segmentation of brain tumors** from MRI
 ├── evaluate.py # Evaluation using Dice coefficient
 ├── inference.py # Model loading and prediction
 ├── requirements.txt # Python dependencies
-How to Run the Project
+
+yaml
+Copy
+Edit
+
+---
+
+## 🧪 Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+
+
+▶️ How to Run the Project
 🔧 Train the Model
 Place your MRI images in images/ and corresponding masks in masks/.
 
