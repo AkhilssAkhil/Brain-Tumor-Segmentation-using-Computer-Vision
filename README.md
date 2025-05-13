@@ -1,7 +1,12 @@
-
+![image](https://github.com/user-attachments/assets/914a1429-2ced-4c10-a260-218b6e51765a)
 # 🧠 Brain Tumor Segmentation using Computer Vision
 
 This project focuses on **automating the segmentation of brain tumors** from MRI images using computer vision and deep learning techniques. The system utilizes a U-Net architecture for pixel-level segmentation, combined with a Streamlit-based web interface for easy interaction.
+Project Team
+AKHIL S S
+VAIBHAV RAJASHEKAR
+HENIN JOSE
+GOKUL J B
 
 ---
 
@@ -16,6 +21,7 @@ This project focuses on **automating the segmentation of brain tumors** from MRI
 
 ## 📁 File Structure
 
+.
 ├── app.py # Streamlit web interface
 ├── train.py # Training pipeline
 ├── model.py # U-Net architecture
@@ -34,11 +40,10 @@ Edit
 
 Install dependencies using:
 
-```bash
 pip install -r requirements.txt
+---
 
-
-**## ▶️ How to Run the Project**
+▶️ How to Run the Project
 🔧 Train the Model
 Place your MRI images in images/ and corresponding masks in masks/.
 
@@ -53,6 +58,8 @@ This will train a U-Net model and save:
 checkpoints/unet_best.h5
 
 unet_final.h5
+
+---
 
 🌐 Launch the Streamlit Web App
 Once training is complete or if you already have a model (.h5 format):
@@ -71,6 +78,8 @@ Visualize original image, probability map, segmented mask, and overlay
 
 Download the final mask output
 
+---
+
 📊 Evaluation
 To evaluate the trained model on a test dataset:
 
@@ -84,6 +93,8 @@ data/test/images/
 
 data/test/masks/
 
+---
+
 🧠 Typical Usage
 Doctors or radiologists upload an MRI scan.
 
@@ -93,14 +104,18 @@ Results are visualized and downloadable.
 
 Can be integrated into telemedicine platforms.
 
+---
+
 🧬 Dataset
-Brain Tumor MRI Dataset (Google Drive)
+[Brain Tumor MRI Dataset (Google Drive)](https://drive.google.com/file/d/14bNmRNEldTI8QTJC8njMA2t4hE9DldyS/view)
 
 MRI Images (Grayscale)
 
 Masks (Binary: 0 = healthy, 255 = tumor)
 
 Input size normalized to 256x256
+
+---
 
 📈 Metrics Used
 Dice Coefficient
@@ -110,6 +125,8 @@ Intersection over Union (IoU)
 Precision & Recall
 
 Inference Time
+
+---
 
 📦 Project Deliverables
 Trained U-Net model
@@ -122,6 +139,8 @@ Preprocessing Modules
 
 Documentation & Results
 
+---
+
 📚 Tech Stack
 Python
 
@@ -133,11 +152,9 @@ Streamlit
 
 NumPy, scikit-learn
 
+---
+
 🔒 License
 This project is for educational and research purposes only. Not for clinical use without medical approval.
-
-yaml
-Copy
-Edit
 
 ---
