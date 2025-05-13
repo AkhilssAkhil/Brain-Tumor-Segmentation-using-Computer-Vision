@@ -38,7 +38,7 @@ Install dependencies using:
 pip install -r requirements.txt
 
 
-▶️ How to Run the Project
+**## ▶️ How to Run the Project**
 🔧 Train the Model
 Place your MRI images in images/ and corresponding masks in masks/.
 
@@ -141,12 +141,3 @@ Copy
 Edit
 
 ---
-
-### ✅ `requirements.txt`
-
-```txt
-numpy
-opencv-python
-streamlit
-tensorflow>=2.10
-scikit-learn
