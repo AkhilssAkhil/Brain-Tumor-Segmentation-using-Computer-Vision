@@ -1,7 +1,7 @@
-![image](https://github.com/user-attachments/assets/914a1429-2ced-4c10-a260-218b6e51765a)
 # 🧠 Brain Tumor Segmentation using Computer Vision
 
 This project focuses on **automating the segmentation of brain tumors** from MRI images using computer vision and deep learning techniques. The system utilizes a U-Net architecture for pixel-level segmentation, combined with a Streamlit-based web interface for easy interaction.
+
 Project Team
 AKHIL S S
 VAIBHAV RAJASHEKAR
