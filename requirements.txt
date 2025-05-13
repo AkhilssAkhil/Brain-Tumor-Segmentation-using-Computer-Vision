@@ -1,0 +1,7 @@
+
+```txt
+numpy
+opencv-python
+streamlit
+tensorflow>=2.10
+scikit-learn
